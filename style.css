@@ -1,0 +1,387 @@
+body {
+    background-color: black;
+
+}
+
+.mainContainer {
+    border: 2px solid white;
+    height: 2000px;
+    display: flex;
+    flex-flow: column;
+}
+
+.generalInfoBox {
+    margin: 0px;
+    padding: 20px;
+}
+
+.infoLineText {
+    display: flex;
+}
+
+.infoLineTxtTitle {
+    color: white !important;
+    font-size: 12px;
+    margin: 5px;
+    /* padding: 0px; */
+}
+
+.biographyBox {
+    border: 2px solid white;
+    /* height: auto !important; */
+}
+
+.infoLineTxt {
+    color: gray !important;
+    font-size: 11px;
+    margin: 5px;
+    /* padding: 0px; */
+}
+
+.headerTextWhite1 {
+    color: aliceblue;
+}
+
+.headerTextBlue2 {
+    color: cornflowerblue;
+    font-weight: lighter;
+}
+
+
+.resumeSummaryContainer {
+    display: flex;
+    border: 2px solid white;
+    margin: 5px;
+
+    flex-direction: column;
+}
+
+.summaryTopContainer {
+    display: flex;
+    border: 2px solid white;
+    margin: 5px;
+
+    width: auto !important;
+
+}
+
+
+.imageBox {
+    border: 2px solid white;
+    width: 60%;
+    height: auto;
+    /* background-color: white; */
+    margin: 5px;
+
+    display: flex;
+    justify-content: left;
+}
+
+.generalInfoBox {
+    border: 2px solid white;
+    margin: 5px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.resumeImg {
+    width: 15vw;
+    height: 25vh;
+    object-fit: cover;
+    border: 3px solid grey;
+    margin: 15px;
+}
+
+.bottomContainer {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    margin: 5px;
+
+    /* height: 100% !important; */
+}
+
+.leftContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    margin: 5px;
+    width: 70%;
+    height: auto;
+}
+
+.rightContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    margin: 5px;
+    width: 30%;
+    height: auto;
+}
+
+
+.education {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+
+    border: 2px solid red;
+    margin: 5px;
+    width: 100%;
+}
+
+.graphicSkills, .progSkills, .languageSkills {
+    display: flex;
+    border: 2px solid green;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+
+}
+
+.proskillBar {
+    display: flex;
+    margin-left: 10px;
+    border: 1px solid gray;
+    height: 20px;
+    width: 60%;
+}
+.progSkills{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.barPercentage {
+    width: 35%;
+    background-color: blue;
+    height: 100%;
+    display: flex;
+    
+}
+
+.barPercentageRemaining {
+    width: 65%;
+    background-color: gray;
+    height: 100%;
+}
+
+.cssskillBar {
+    display: flex;
+    margin-left: 10px;
+    border: 1px solid gray;
+    height: 20px;
+    width: 60%;
+}
+.cssbarPercentage {
+    width: 90%;
+    background-color:orange;
+    height: 100%;
+    display: flex;
+    
+}
+
+.cssbarPercentageRemaining {
+    width: 10%;
+    background-color: gray;
+    height: 100%;
+}
+
+.htmlskillBar {
+    display: flex;
+    margin-left: 10px;
+    border: 1px solid gray;
+    height: 20px;
+    width: 60%;
+}
+.htmlSkills{
+    display: flex;
+    flex-direction: column;
+}
+.htmlbarPercentage {
+    width: 80%;
+    background-color: red;
+    height: 100%;
+    display: flex;
+    
+}
+
+.htmlbarPercentageRemaining {
+    width: 20%;
+    background-color: gray;
+    height: 100%;
+}
+
+ .progskillHeadertxt, .langskillHeadertxt, .graphskillHeadertxt , .empHeadertxt, .eduHeadertxt{
+    color: white !important;
+    font-size: 16px;
+}
+.skillHeadertxt {
+    color:gray;
+    font-size: 14px;
+}
+
+.barPercentage, .cssbarPercentage, .htmlbarPercentage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.languageSkills{
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+.grading{
+    display: flex;
+    
+}
+.grade1, .grade2, .grade3, .grade4
+{
+    height: 30px;;
+    width: 30px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    background-color:darkolivegreen
+}
+.arabicGrade1, .arabicGrade2, .arabicGrade3, .arabicGrade4
+{
+    height: 30px;;
+    width: 30px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    background-color:darkorange
+}
+.frenchGrade1, .frenchGrade2, .frenchGrade3, .frenchGrade4
+{
+    height: 30px;;
+    width: 30px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    background-color:darksalmon
+}
+.grade4{
+    background-color:black;
+}
+.arabicGrade4{
+    background-color:darkorange;
+}
+.frenchGrade2, .frenchGrade3, .frenchGrade4{
+    background-color:black;
+}
+.english, .arabic, .french{
+    display: flex;
+    justify-content:space-around;
+}  
+
+.icon1{
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray; 
+    background-color: blue;
+    margin: 15px;
+}
+.icon2{
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray; 
+    background-color: orangered;
+    margin: 15px;
+}
+
+.icon3{
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray; 
+    background-color: blueviolet;
+    margin: 15px;
+}
+
+.icon4{
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray; 
+    background-color: aqua;
+    margin: 15px;
+}
+
+.icon5{
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray; 
+    background-color: burlywood;
+    margin: 15px;
+}
+.adobeLbltxt{
+    color: gray !important;
+    font-size: 16px;
+
+}
+.adobeLbl{
+    display: flex;
+    align-items: center;
+}
+.graphicsGrading{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.adobeGrading, .adobeIllu, .dStudio, .corelDraw, .indesign {
+    display: flex;
+    justify-content: left;
+}
+
+.graphicSkills{
+    display: flex;
+    flex-direction: column;
+       margin: 5px;
+}
+
+.employment {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid yellow;
+    margin: 5px;
+    width: 100%;
+    height: 30%;
+}
+
+
+.empTitle , .eduTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    height: 20px;
+    }
+.enmIcon, .eduIcon{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray; 
+    background-color: aqua;
+    margin: 15px;
+    margin-right: 0px;
+     
+}
+.eduIcon{
+    background-color: green !important;
+}
+.empTitleBar, .eduTitleBar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 20px;
+    width: 80%;
+    /* padding: 3px ; */
+    margin: 15px;
+    margin-left: 0px;
+    background-color:darkslategrey !important; /*
+    
+}
